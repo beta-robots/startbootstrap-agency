@@ -10,6 +10,9 @@ body {
 .text-muted {
   color: #777777;
 }
+.text-bold {
+  font-weight: bold;
+}
 .text-muted2 {
   color: #ffffff;
 }
@@ -300,6 +303,11 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
+section h5.section-heading {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
 section h3.section-subheading {
   font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -317,6 +325,11 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+.hline-bottom {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000; /* whichever color you prefer */
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
